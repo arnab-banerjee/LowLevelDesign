@@ -5,8 +5,8 @@ public class SnakeLadderDemo {
 		Dice dice = new Dice(1);
 		Game game = new Game(board, dice);
 		
-		game.addPlayer(new Player("Arnab", 1));
-		game.addPlayer(new Player("Abhishek", 2));
+		game.addPlayer(new Player("Player-1", 1));
+		game.addPlayer(new Player("Player-2", 2));
 		System.out.println("Starting Game... \n");
 		game.startGame();
 	}
